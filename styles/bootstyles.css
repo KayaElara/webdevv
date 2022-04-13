@@ -1,0 +1,49 @@
+/* Kaya Fahsbender 04/13/2022 */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(101, 139, 159);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.background {
+  background-color: rgb(237, 214, 205);
+}
+
+.fontfamily {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.padding {
+  padding: 20px;
+  margin: 150px;
+}
+
+.boldtext {
+  font-weight: bold;
+}
+
+p {
+  background-color: cornflowerblue;
+}

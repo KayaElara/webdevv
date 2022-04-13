@@ -1,0 +1,74 @@
+/* Kaya Fahsbender 04/13/2022 */
+body {
+    background-color: rgb(237, 214, 205);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.bold {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footerbasic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.font {
+  font-style: italic;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.textcolor {
+  color: #0b2d4e;
+}
+
+.whitefont {
+  color: #4d4745;
+}
+
+.fontcolorhome {
+  color: darkred;
+}
